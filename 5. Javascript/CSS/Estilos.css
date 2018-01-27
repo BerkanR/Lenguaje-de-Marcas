@@ -1,0 +1,102 @@
+/* Formateo Inicial */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Formateo Primario */
+
+body {
+    background: url("https://www.cyberworx.in/images/services/website-startups.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial;
+    font-size: 300%;
+    margin-top: 50px;
+    color: red;
+}
+
+table {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-spacing: 15px;
+    border-radius: 5px;
+    position: fixed;
+}
+
+table, th, td {
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+th, td {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    background: black;
+}
+
+.hoverCeldas {
+    background-color: white;
+    color: blue;
+}
+
+.empty {
+    border: none;
+    background: none;
+}
+
+/* Formateo de SCRIPT */
+/* Estilos para mostrar la información de cada asignatura */
+
+.BBDD {
+    background-color: red;
+    color: blue;;
+}
+  
+.LLM {
+    background-color: yellow;
+    color: black;
+}
+  
+.Refuerzo-LLM {
+    background-color: black;
+    color: yellow;
+}
+  
+.Programación {
+    background-color: rgb(82, 35, 0);
+    color: rgb(225, 235, 88);
+}
+  
+.Refuerzo-Programación {
+    background-color: rgb(211, 76, 76);
+    color: black;
+}
+  
+.ED{
+    background-color: rgb(201, 135, 64);
+    color: red;
+}
+  
+.SI {
+    background-color: rgb(21, 131, 165);
+    color: red;
+}
+
+.Tutoria {
+    background-color: green;
+    color: red;
+}
+
+.FOL {
+    background-color: rgb(179, 34, 147);
+    color: rgb(231, 231, 110);
+}
